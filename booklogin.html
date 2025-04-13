@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <form onsubmit="loginUser(event)">
+            UserName<br>
+            <input type="text" placeholder="Write here">
+            <br>
+            Email
+            <br>
+            <input type="text" placeholder="Ex-7335bdbhjb@gmail.com">
+            <br>
+            Password
+            <br>
+            <input type="password" placeholder="Password">
+            <br>
+            <button type="submit">
+                Login
+            </button>
+        </form>
+    </div>
+    <script>
+        function loginUser(event) {
+          event.preventDefault();
+          // simulate login success and redirect
+          window.location.href = "book.html";
+        }
+      </script>
+    
+</body>
+</html>

@@ -1,0 +1,110 @@
+body{
+    background-image: url(bg.jpg);
+    text-align: center;
+    align-content: center;
+}
+.navbar{
+    background-color: rgb(64, 0, 44);
+    padding: 10px 10px 10px 10px;
+    margin : 3px;
+    border-radius: 10px;
+}
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+}
+.navbar li a{
+    padding: 15px 15px 15px 15px;
+    color: rgb(255, 220, 229);
+    text-decoration: none;
+    font-size: larger;
+}
+.navbar li a:hover{
+    color:rgb(204, 102, 170);
+}
+.search{
+    float: right;
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+h1{
+    font-size: 46px;
+    width: 800px;
+    color:rgb(255, 220, 229);
+    margin:0 auto;
+    font-size: 60px;
+    text-shadow: black;
+    font-family: 'Georgia', serif;
+}
+
+.books div{
+    width: 1000px;
+    height: 820px;
+    background-color:rgb(255, 220, 229) ;
+    margin: 30px auto;
+    border-radius: 30px;
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+    font-size: 30px;
+    color: rgb(64, 0, 44);
+}
+footer{
+    justify-content: center;
+    display: flex;
+}
+.links{
+    float: left;
+    padding: 20px;
+    margin: 5px;
+    max-width: 800px;
+    justify-content: center;
+    border-color: rgb(231, 40, 40);
+    background-color: rgb(64, 0, 44);
+    color: rgb(255, 220, 229);
+}
+#about{
+    width: 250px;
+    height: 210px;
+    border-radius: 20px;
+}
+#contact{
+    width: 250px;
+    height: 210px;
+    border-radius: 20px;
+}
+
+#quick{
+    width: 250px;
+    height: 210px;
+    border-radius: 20px;
+}
+#quick a{
+    text-decoration: none;
+    color: rgb(255, 220, 229);
+}
+.books div img{
+    width: 230px;
+    
+}
+.books a{
+    text-decoration: none;
+    color:rgb(64, 0, 44); 
+    font-weight: bold;
+    font-size: 20px;
+}
+.books button{
+    width: 150px;
+    height: 40px;
+    margin: 20px;
+}
+.books a:hover{
+    color: rgb(255, 220, 229);
+    background-color: rgb(64, 0, 44);
+}
+.books div:hover{
+    background-color: rgb(220, 139, 159);
+}

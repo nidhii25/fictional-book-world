@@ -1,0 +1,86 @@
+.navbar{
+    background-color: rgb(64, 0, 44);
+    padding: 10px 10px 10px 10px;
+    margin : 3px;
+    border-radius: 10px;
+}
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+}
+.navbar li a{
+    padding: 15px 15px 15px 15px;
+    color: rgb(255, 220, 229);
+    text-decoration: none;
+    font-size: larger;
+}
+.navbar li a:hover{
+    color:rgb(204, 102, 170);
+}
+body{
+    background-image: url(bg.jpg);
+    text-align: center;
+    align-content: center;
+}
+main{
+    background-color: rgb(255, 220, 229);
+    border-radius: 30px;
+    width: 1000px;
+    padding: 20px 30px 20px 30px;
+    font-size: 40px ;
+    margin: 0 auto;
+    color: rgb(91, 15, 82);
+}
+main h2{
+    color: rgb(64, 0, 44);
+}
+.button{
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 40px;
+}
+.button a{
+    text-decoration: none;
+    color: rgb(91, 15, 82);
+}
+.button a:hover{
+    color: rgb(237, 164, 176);
+}
+footer{
+    justify-content: center;
+    display: flex;
+}
+.links{
+    float: left;
+    padding: 20px;
+    margin: 5px;
+    max-width: 800px;
+    justify-content: center;
+    border-color: rgb(231, 40, 40);
+    background-color: rgb(64, 0, 44);
+    color: rgb(255, 220, 229);
+}
+#about{
+    width: 250px;
+    height: 210px;
+    border-radius: 20px;
+}
+#contact{
+    width: 250px;
+    height: 210px;
+    border-radius: 20px;
+}
+
+#quick{
+    width: 250px;
+    height: 210px;
+    border-radius: 20px;
+}
+#quick a{
+    text-decoration: none;
+    color:rgb(255, 220, 229);
+}
