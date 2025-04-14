@@ -1,19 +1,25 @@
+body{
+    background-image: url(bg.jpg);
+    text-align: center;
+    align-content: center;
+}
 .navbar{
     background-color: rgb(64, 0, 44);
-    padding: 10px 10px 10px 10px;
-    margin : 3px;
-    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    height: 80px;
+    border: 0px;
 }
-.navbar ul{
+/* .navbar ul{
     overflow: auto;
-}
+} */
 
 .navbar li{
     float: left;
     list-style: none;
+    font-size: 40px;
 }
 .navbar li a{
-    padding: 15px 15px 15px 15px;
+    padding: 30px 30px 30px 30px;
     color: rgb(255, 220, 229);
     text-decoration: none;
     font-size: larger;
@@ -21,27 +27,33 @@
 .navbar li a:hover{
     color:rgb(204, 102, 170);
 }
-body{
-    background-image: url(bg.jpg);
-    text-align: center;
-    align-content: center;
+.search{
+    float: right;
+    padding: 10px 10px 10px 10px;
+    color: white;
 }
 main{
     background-color: rgb(255, 220, 229);
     border-radius: 30px;
-    width: 1000px;
-    padding: 20px 30px 20px 30px;
+    width: 1300px;
+    padding: 10px 30px 40px 60px;
     font-size: 40px ;
     margin: 0 auto;
     color: rgb(91, 15, 82);
+    text-align: left;
+    font-size: 50px;
 }
 main h2{
     color: rgb(64, 0, 44);
+    font-size: 80px;
+    text-align: center;
 }
 .button{
     font-size: 40px;
     padding: 20px;
     border-radius: 40px;
+    margin: 0 auto;
+    display: block;
 }
 .button a{
     text-decoration: none;
@@ -53,6 +65,7 @@ main h2{
 footer{
     justify-content: center;
     display: flex;
+    background-color: rgb(64, 0, 44);
 }
 .links{
     float: left;
@@ -60,27 +73,24 @@ footer{
     margin: 5px;
     max-width: 800px;
     justify-content: center;
-    border-color: rgb(231, 40, 40);
     background-color: rgb(64, 0, 44);
     color: rgb(255, 220, 229);
 }
-#about{
-    width: 250px;
-    height: 210px;
-    border-radius: 20px;
+footer div{
+  width: 600px;
+  height: 400px;
+  font-size: 30px;
+  text-align: left;
+  justify-content: center;
 }
-#contact{
-    width: 250px;
-    height: 210px;
-    border-radius: 20px;
-}
-
-#quick{
-    width: 250px;
-    height: 210px;
-    border-radius: 20px;
+footer div h3{
+  font-size: 50px;
+  text-decoration: underline;
 }
 #quick a{
     text-decoration: none;
     color:rgb(255, 220, 229);
 }
+#quick a:hover{
+    color:rgb(204, 102, 170);
+  }
